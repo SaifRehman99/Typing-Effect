@@ -25,6 +25,10 @@ h1{
     font-size: 3rem
 
 }
+h1 > span {
+    font-size: 2.5rem;
+    color: darkgray
+}
 h2{
     font-size: 1.2rem;
     color: #aaa;
