@@ -1,0 +1,32 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+    background-image: url("/img/wallpaper.jpg "); /* The image used */
+    color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    overflow: hidden;
+
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0 4rem;
+}
+h1,h2{
+    margin: 0.4rem;
+    font-weight: 100;
+}
+h1{
+    font-size: 3rem
+
+}
+h2{
+    font-size: 1.2rem;
+    color: #aaa;
+}
+ /*  */
