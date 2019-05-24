@@ -29,6 +29,11 @@ h2{
     font-size: 1.2rem;
     color: #aaa;
 }
+
+/* setting the cursor here */
+.typeEffect > .innerTextCursor{
+    border-right: 0.2rem solid gray
+}
  /* Media queries here */
  @media(min-width:1200px){
      h1{
